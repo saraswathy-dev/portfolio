@@ -1,3 +1,14 @@
+// navbar toggle
+
+
+
+
+
+
+
+
+
+
 // about tabs
 const tabContainer=document.querySelector(".about-tabs");
 aboutSection=document.querySelector(".about-section");
