@@ -14,14 +14,22 @@
       <header class="header">
         <div class="container">
           <div class="row flex-end">
-            <button type="button" class="nav-toggler"><span></span></button>
+            <button type="button" class="nav-toggler">
+              <span></span>
+            </button>
             <nav class="nav">
               <div class="nav-inner">
                 <ul>
-                  <li><a href="#" class="nav-iteam">Home</a></li>
-                  <li><a href="#" class="nav-iteam">About</a></li>
-                  <li><a href="#" class="nav-iteam">Portfolio</a></li>
-                  <li><a href="#" class="nav-iteam">Contact</a></li>
+                  <li><a href="#home" class="nav-item link-item">Home</a></li>
+                  <li><a href="#about" class="nav-item link-item">About</a></li>
+                  <li>
+                    <a href="#portfolio" class="nav-item link-item"
+                      >portfolio</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#contact" class="nav-item link-item">Contact</a>
+                  </li>
                 </ul>
               </div>
             </nav>
@@ -32,7 +40,7 @@
       <!--------------------------- header ends---------------------------- -->
 
       <!-------------------------- home section start ----------------------->
-      <section class="home-section aligniteam-center active">
+      <section class="home-section aligniteam-center active" id="home">
         <div class="container">
           <div class="row aligniteam-center">
             <div class="home-text">
@@ -40,8 +48,8 @@
               <h1>SARASWATHY RAJENDRAN</h1>
               <h2>Frontend Web Developer</h2>
               <div class="button">
-                <a href="" class="btn">More about me</a>
-                <a href="" class="btn">portfolio</a>
+                <a href="#about" class="btn link-item">More about me</a>
+                <a href="#portfolio" class="btn link-item">portfolio</a>
               </div>
             </div>
 
@@ -56,7 +64,7 @@
       <!------------------------ home section ends ----------------------------->
 
       <!-- about section starts -->
-      <section class="sec-padding aligniteam-center">
+      <section class="sec-padding aligniteam-center" id="about">
         <div class="about-section sec-padding">
           <h2 class="section-title">About me</h2>
           <div class="container">
@@ -158,8 +166,13 @@
                 </div>
 
                 <!-- experience ends -->
-                <a href="#" class="btn">download CV</a>
-                <a href="#" class="btn">Contact me</a>
+                <a
+                  href="https://drive.google.com/file/d/1AiPNlZNk5Seuy7xhgRIOZXcl_v-bORBd/view?usp=sharing"
+                  target="_blank"
+                  class="btn"
+                  >download CV</a
+                >
+                <a href="#contact" class="btn link-item">Contact me</a>
               </div>
 
               <div class="about-img aligniteam-center">
@@ -174,7 +187,7 @@
       <!-- about section ends -->
 
       <!-- portfolio section starts -->
-      <section class="portfolio-section sec-padding">
+      <section class="portfolio-section sec-padding" id="portfolio">
         <h2 class="section-title">Recent works</h2>
         <div class="container">
           <div class="row">
@@ -242,7 +255,7 @@
               </div>
             </div>
           </div>
-          <div class="row">
+          <div class="row col2">
             <div class="portfolio-item">
               <div class="portfolioitem-thumbnail">
                 <img src="../../assets/resta.jpg" alt="portfolio image" />
@@ -308,7 +321,7 @@
       <!-- portfolio section ends -->
 
       <!-- contact section starts -->
-      <section class="contact-section sec-padding">
+      <section class="contact-section sec-padding" id="contact">
         <h2 class="section-title">Contact Me</h2>
         <div class="container">
           <div class="row">
