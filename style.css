@@ -266,7 +266,7 @@ a{
 .header .nav-inner ul li a:hover{
     color:var(--main-color)
 }
-.header .nav-inner ul li a::before{
+/* .header .nav-inner ul li a::before{
     content:'';
     position: absolute;
     right: 0;
@@ -274,7 +274,7 @@ a{
     height: 50%;
     width: 100%;
  
-}
+} */
 
 
 
@@ -655,10 +655,11 @@ textarea{
         margin-bottom: 15px;
       
     }
-.portfolio-item{
-    min-width: 100%;
-}
     
-
+    .col1 .portfolio-item{
+        width:80%;
+        padding:0 10px;
+       
+    }
 }
 
