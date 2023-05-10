@@ -645,11 +645,9 @@ textarea{
     .home-text h2{
         font-size:18px;
     }
-    .contact-info,.contact-info {
-       order:-1;
-    }
-    .contact-form .input-group {
     
+    .contact-form .input-group {
+    width:100%;
         padding-right: 0px;
         margin-top: 15px;
         margin-bottom: 15px;
@@ -658,6 +656,11 @@ textarea{
     
     .col1 .portfolio-item{
         width:80%;
+        padding:0 10px;
+       
+    }
+ .contact-form.col1{
+        width:100%;
         padding:0 10px;
        
     }
