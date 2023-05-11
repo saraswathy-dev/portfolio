@@ -46,3 +46,12 @@ if(e.target.classList.contains("tab-items") && !e.target.classList.contains("act
  aboutSection.querySelector(target).classList.add("active");
 }
 })
+// contact 
+var button = document.getElementById("myButton");
+
+button.addEventListener("click", showAlert);
+
+
+function showAlert() {
+  alert("Something went wrong! please contact through phone or Email");
+}
