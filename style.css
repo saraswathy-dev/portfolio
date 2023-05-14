@@ -46,6 +46,9 @@ img{
     max-width: 100%;
     vertical-align: middle;
 }
+p,span{
+    text-align: justify;
+}
 section{
     background-color:var(--white-alpha-25);
     border:1px solid var(--white-alpha-40);
@@ -525,6 +528,10 @@ margin-bottom: 0;
     padding:10px;
     background-color: var(--white-alpha-25);
 }
+
+div.description{
+    text-align: justify;
+}
 .portfolioitem-thumbnail img{
    width:100%;
     border-radius: 10px;
@@ -635,9 +642,27 @@ textarea{
     
 }
 @media screen and (max-width:575px){
+    body{
+        padding: 0 2px;
+    }
+    button.nav-toggler.hide{
+        margin: 0;
+    }
+    .home-section p{
+        text-align: center;
+    }
     .section-title h2,
     .header .nav-inner u1 li a{
         font-size:35px;
+    }
+  .sec-padding{
+    padding: 50px 0;
+  }
+  .home-section.section-title{
+margin: 0;
+  }
+    .home-img img{
+        text-align: center;
     }
     .home-text h1{
         font-size:30px;
@@ -645,13 +670,24 @@ textarea{
     .home-text h2{
         font-size:18px;
     }
-    
+ a.btn{
+        margin-bottom: 10px;
+    }
+    .about-para{
+        margin-bottom: 0;
+    }
+    .about-text {
+         margin-top: 3px; 
+    }
     .contact-form .input-group {
     width:100%;
         padding-right: 0px;
         margin-top: 15px;
         margin-bottom: 15px;
       
+    }
+    div.contact-form.col1{
+        margin-top: 0;
     }
     
     .col1 .portfolio-item{
@@ -663,6 +699,9 @@ textarea{
         width:100%;
         padding:0 10px;
        
+    }
+    .input-control {
+    width:90%;
     }
 }
 
