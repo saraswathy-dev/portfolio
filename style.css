@@ -645,9 +645,7 @@ textarea{
     body{
         padding: 0 2px;
     }
-    button.nav-toggler.hide{
-        margin: 0;
-    }
+  
     .home-section p{
         text-align: center;
     }
@@ -691,9 +689,13 @@ margin: 0;
     }
     
     .col1 .portfolio-item{
-        width:80%;
+       
         padding:0 10px;
        
+    }
+    .portfolioitem-title {
+        
+        margin: 10px 0;
     }
  .contact-form.col1{
         width:100%;
